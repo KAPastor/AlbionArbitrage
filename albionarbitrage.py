@@ -75,7 +75,7 @@ if run_button:
         #     print("Buy asset from: " + best_buy_city + ' for a price of: ' + str(best_buy_price))
         #     print("Sell asset to: " + best_sell_city + ' for a price of: ' + str(best_sell_price))
         #     print("Spread of: " + str(best_sell_price-best_buy_price) + ' per unit')
-            raw_profit = (best_sell_price-best_buy_price)*100
+            raw_profit = (best_sell_price-best_buy_price)*999
         #     print('For an investment of 100 units you get: '+str(raw_profit))
             fees = 100*best_sell_price*0.105
         #     print('Fees: ' + str(fees))
